@@ -7,28 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stye.css">
     <script src="https://kit.fontawesome.com/c0e27fec68.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Sign Up to BankAG</title>
+    <link rel="stylesheet" href="css/stye.css">
+    <title>Register - BankAG</title>
 </head>
 
 <body class="gradient-background">
-    <div class="login-outer-container">
+    <section class="login-outer-container">
         <div class="login-container">
-            <div class="login-area">
-                <h3>Join <span class="brand-highlight">BankAG</span> Today</h3>
-                <form class="login-items" method="POST" action="/register">
-                    <label for="name">Name</label>
-                    <input type="text" class="login" name="name" placeholder="Your name" required />
-                    <label for="email">Email</label>
-                    <input type="email" class="login" name="email" placeholder="your-email@gmail.com" required />
-                    <label for="password">Password</label>
-                    <input type="password" class="login" name="password" placeholder="Enter password" required />
-                    <input type="submit" class="login-btn" value="Register" />
-                </form>
-                <p class="p">Already have an account? <a class="a" href="index.html">Please Login</a></p>
-            </div>
+            <h3>Join <span class="brand-highlight">BankAG</span> Today</h3>
+            <form class="login-items" method="POST" action="/register">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Your name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="your-email@gmail.com" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Create a Password" required>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="index.html">Please Login</a></p>
         </div>
-    </div>
+    </section>
+    <footer>&copy; 2024 BankAG. All rights reserved.</footer>
 </body>
-
 </html>
